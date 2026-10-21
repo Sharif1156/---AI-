@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "order_bn": "BERC ট্যারিফ (আবাসিক, প্রিপেইড)",
+    "effective_from": "2026-06-01",
+    "currency": "BDT",
+    "disclaimer_bn": "রেটগুলো tariff.json-এ রাখা আছে যাতে BERC নতুন আদেশ দিলে শুধু এই ফাইল এডিট করলেই হয়। আপনার এলাকার (DESCO/DPDC) সর্বশেষ আদেশের সাথে মিলিয়ে নিন — ডিমান্ড চার্জ, মিটার ভাড়া আর রিবেট এলাকা ভেদে আলাদা হতে পারে।",
+    "last_verified": "2026-06-01"
+  },
+  "vat_percent": 5.0,
+  "categories": {
+    "residential": {
+      "label_bn": "আবাসিক",
+      "demand_charge_per_kw": 42.0,
+      "meter_rent": {
+        "single": 40.0,
+        "three": 100.0
+      },
+      "prepaid_rebate_per_unit": 0.25,
+      "minimum_bill_tk": 0.0,
+      "slabs": [
+        {
+          "up_to": 50,
+          "rate": 4.63,
+          "label_bn": "প্রথম ৫০ ইউনিট"
+        },
+        {
+          "up_to": 75,
+          "rate": 5.26,
+          "label_bn": "৫১–৭৫ ইউনিট"
+        },
+        {
+          "up_to": 100,
+          "rate": 6.2,
+          "label_bn": "৭৬–১০০ ইউনিট"
+        },
+        {
+          "up_to": 150,
+          "rate": 7.34,
+          "label_bn": "১০১–১৫০ ইউনিট"
+        },
+        {
+          "up_to": 200,
+          "rate": 8.36,
+          "label_bn": "১৫১–২০০ ইউনিট"
+        },
+        {
+          "up_to": 250,
+          "rate": 9.34,
+          "label_bn": "২০১–২৫০ ইউনিট"
+        },
+        {
+          "up_to": 300,
+          "rate": 10.4,
+          "label_bn": "২৫১–৩০০ ইউনিট"
+        },
+        {
+          "up_to": 400,
+          "rate": 11.22,
+          "label_bn": "৩০১–৪০০ ইউনিট"
+        },
+        {
+          "up_to": 600,
+          "rate": 12.2,
+          "label_bn": "৪০১–৬০০ ইউনিট"
+        },
+        {
+          "up_to": null,
+          "rate": 13.05,
+          "label_bn": "৬০০ ইউনিটের পরে"
+        }
+      ]
+    },
+    "commercial": {
+      "label_bn": "বাণিজ্যিক",
+      "demand_charge_per_kw": 90.0,
+      "meter_rent": {
+        "single": 60.0,
+        "three": 150.0
+      },
+      "prepaid_rebate_per_unit": 0.0,
+      "minimum_bill_tk": 0.0,
+      "slabs": [
+        {
+          "up_to": 100,
+          "rate": 9.6,
+          "label_bn": "প্রথম ১০০ ইউনিট"
+        },
+        {
+          "up_to": 300,
+          "rate": 10.9,
+          "label_bn": "পরের ২০০ ইউনিট"
+        },
+        {
+          "up_to": null,
+          "rate": 12.4,
+          "label_bn": "৩০০ ইউনিটের পরে"
+        }
+      ]
+    },
+    "agriculture": {
+      "label_bn": "কৃষি",
+      "demand_charge_per_kw": 30.0,
+      "meter_rent": {
+        "single": 40.0,
+        "three": 100.0
+      },
+      "prepaid_rebate_per_unit": 0.0,
+      "minimum_bill_tk": 0.0,
+      "slabs": [
+        {
+          "up_to": null,
+          "rate": 4.95,
+          "label_bn": "সব ইউনিট"
+        }
+      ]
+    }
+  }
+}
